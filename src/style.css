@@ -1,0 +1,139 @@
+body{
+    background-color:#1d2434;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.store {
+    display: flex;
+    flex-direction:row;
+    gap : 2rem;
+    align-items: center;
+    justify-content: center;
+}
+/** the ending**/
+.heading{
+    
+    color: bisque;
+}
+.main-container {
+    gap: 2rem;
+    height:100%;
+    background: url("./pictures/image.jpg");
+    position: relative;
+}
+.bar{
+    margin: 2rem;
+    margin-left:18%;
+    border-radius: 10%;
+    background-color: rgb(197, 194, 29);
+    height : 85%;
+    width : 60%;
+    padding-top: 1.5rem;
+}
+img {
+    position: absolute;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/**location **/
+.location {
+    margin-top: 2rem;
+    height: 3rem;
+    width: 8rem;
+    background-color: #1d2434;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 0.9rem;
+    cursor: pointer;
+    color: beige;
+}
+.header {
+    height: 5rem;
+    background-color:rgb(48, 50, 168);
+    color:beige;
+    font-size: 1.6rem;
+    
+}
+/** the subtopic **/
+.sub-topic {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: rgb(216, 228, 217);
+}
+/** home section **/
+.home {
+    margin-top: 2rem;
+    height: 3rem;
+    width: 8rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #1d2434;
+    border-radius:0.9rem;
+    cursor: pointer;
+    color :beige;
+   
+}
+/**guest rooms**/
+.guest {
+    height: 5rem;
+    width: 12rem;
+    font-size: 2rem;
+    background-color:#1d2434;
+    border-radius: 0.9rem;
+    cursor: pointer;
+    justify-self: center;
+    text-align: center;
+}
+/** the home section **/
+.topic {
+   
+    font-size: 2rem;
+    text-align: center;
+}
+
+/** the contact section **/
+.contact {
+    margin-top: 2rem;
+    cursor: pointer;
+    height: 3rem;
+    width: 8rem;
+    font-size: 2rem;
+    background-color: #1d2434;
+    border-radius: 0.9rem;
+    text-align: center;
+    color :beige;
+
+}
+
+/** the menu section **/
+.menu {
+    margin-top: 2rem;
+    height: 3rem;
+    width: 8rem;
+    font-size: 2rem;
+    background-color: #1d2434;
+    border-radius: 0.9rem;
+    cursor: pointer;
+    text-align: center;
+    color :beige;
+}
+
+/** the footer section **/
+.footer {
+    position: relative;
+    padding: 0.5rem;
+    height: 3rem;
+    background-color: #11ebeb;
+    text-align: center;
+    bottom: 0;
+}
